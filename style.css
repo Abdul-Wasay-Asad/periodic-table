@@ -1,0 +1,37 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+table {
+  border: solid gold;
+  margin: 50px auto;
+}
+
+td {
+  font-style: italic;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+td:hover {
+  text-shadow: 1px 1px 1px white;
+  transform:translate(-3px);
+  background: color #ff5c5c; ;
+}
+
+.blank {
+  border: none;
+}
+
+.red { background: red; }
+.orange { background: orange; }
+.green { background: lightgreen; }
+.yellow { background: yellow; }
+.purple { background: purple; }
+.aqua { background: aqua; }
+.blue { background: blue; }
+.grey { background: grey; }
